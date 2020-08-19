@@ -1,0 +1,49 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cyse-ars@bitbucket.org/cyse-ars/temp.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "ars",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/cyse-ars/temp#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "@types/node": "^12.12.11",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.9.7"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/test/**/*.+(ts|js)"
+    ]
+  },
+  "dependencies": {
+    "object-sizeof": "^1.5.3"
+  }
+}
